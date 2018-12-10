@@ -1,0 +1,35 @@
+.product-item {
+    cursor: pointer;
+    display: flex;
+    border-bottom: 1px #999999 solid;
+    margin-bottom: 16px;
+}
+
+.product-item .col-image {
+    padding: 16px;
+}
+
+.product-item img {
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.col-details {
+    padding-top: 32px;
+    padding-right: 16px;
+    width: 100%;
+}
+
+.col-price-location {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.price-shipping img {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+}

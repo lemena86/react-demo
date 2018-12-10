@@ -1,0 +1,9 @@
+.btn-search {
+    background-image: none;
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+.nav-icon-search::before {
+    content: url('../images/ic_search.png');
+}
