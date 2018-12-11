@@ -18,7 +18,7 @@ class ProductList extends Component {
         console.log(this.props.product);
         return (
             <div className="product-detail">
-                {this.props.product.title}
+                <h1>{this.props.product.title}</h1>
             </div>
         );
     }

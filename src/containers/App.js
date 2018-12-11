@@ -1,18 +1,17 @@
 import React, {Component} from 'react';
 import {Router, Route} from "react-router-dom";
 
-import Header from "./components/shared/Header";
-import Home from "./containers/Home";
-import ProductList from "./containers/ProductList";
-import ProductDetail from "./containers/ProductDetail";
-import history from './history';
+import Header from "../components/shared/Header";
+import Home from "./Home";
+import ProductList from "./ProductList";
+import ProductDetail from "./ProductDetail";
+import history from '../history';
 
-import './App.css';
+import './css/App.css';
 
 class App extends Component {
 
     onSearchFormSubmit = (term) => {
-        console.log(history);
         const previous = history.location.pathname;
         if (previous === '/items') {
             window.location.replace(`/items?search=${term}`);
